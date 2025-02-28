@@ -1,0 +1,3128 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20030301</pubdate>
+                <title>Medical Facilities</title>
+                <edition>2003</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>SCHS, DPH, DHHS</publish>
+                </pubinfo>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>20030301</pubdate>
+                        <title>Medical Facility Data</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The North Carolina State Center for Health Statistics in cooperation with the Division of Facility Services in the Department of Health and Human Services, developed the GIS data set, Medical Facility Point Locations, to identify locations of health and medical facilities for the entire State of North Carolina. Point locations were geocoded from the facilities database provided by the Division of Facility Services.</abstract>
+            <purpose>This data set was created to locate health and medical facilities (including hospitals) for the State of North Carolina.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20030301</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-84.299956</westbc>
+                <eastbc>-75.572979</eastbc>
+                <northbc>36.565476</northbc>
+                <southbc>33.802755</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>health facilities</themekey>
+                <themekey>facility locations</themekey>
+                <themekey>medical facilities</themekey>
+            </theme>
+            <place>
+                <placekt>hospitals</placekt>
+                <placekey>North Carolina</placekey>
+            </place>
+        </keywords>
+        <accconst>Request updates from SCHS.</accconst>
+        <useconst>https://www.nconemap.gov/pages/terms</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NC State Center for Health Statistics, Division of Public Health, Department of Health &amp; Human Services</cntorg>
+                    <cntper>Dianne Enright</cntper>
+                </cntorgp>
+                <cntpos>Geographic Analysis Manager</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>Cotton Classing Building</address>
+                    <address>State Center for Health Statistics</address>
+                    <address>222 North Dawson Street</address>
+                    <city>Raleigh</city>
+                    <state>NC</state>
+                    <postal>27603-1392</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-715-4473</cntvoice>
+                <cntfax>919-733-8485</cntfax>
+                <cntemail>Dianne.Enright@ncmail.net</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>NC State Center of Health Statistics and the Division of Facility Services, Department of Health and Human Services.</datacred>
+        <native>ESRI ArcCatalog 9.1.0.722</native>
+        <crossref>
+            <citeinfo>
+                <pubdate>20030402</pubdate>
+                <title>facilitiesmarch03</title>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Point attributes were supplied by the Division of Facility Services in the Department of Health and Human Services.</attraccr>
+        </attracc>
+        <logic>5,379 of the 7,159 addresses had match rates of 100%. Match rates lower than 100% were also considered a match because variables such only had minor errors. The address table and the road file did not coincide because of the currentness of the address table. Minor errors detected from either the road file or the address table include incorrect zip codes, incomplete address ranges and inconsistant road name formats. Addresses with no address ranges were geocoded to the closest road intersection. Addresses with discrepancies and/or improper formats were simply corrected and matched. 352 addresses had zero match rates because roads were non-existant in the road file. Several problems attributed to addresses having zero percent match rates include non-existant roads, non-existant road address ranges and improper zip codes. Facilities with rural routes and post office box addresses also had a zero percent match rate.</logic>
+        <complete>Data is complete for 2003.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20030301</pubdate>
+                        <title>Facility Data</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20030301</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Facility Data</srccitea>
+                <srccontr>medical facility data</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20030301</pubdate>
+                        <title>facilitiesmarch03</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20030301</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>facilitiesmarch03</srccitea>
+                <srccontr>medical facility data</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>The database was geocoded or "addressmatched" using GDT, Inc. Dynamap for NC (from OCT 02). The addressmatching was done using ArcView 3.2</procdesc>
+                <procdate>20030401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NC State Center for Health Statistics, DHHS, DPH</cntorg>
+                            <cntper>Michelle Lown</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Analyst</cntpos>
+                        <cntaddr>
+                            <addrtype>physical</addrtype>
+                            <address>State Center for Health Statistics</address>
+                            <address>Cotton Classing Building</address>
+                            <address>222 North Dawson Street</address>
+                            <city>Raleigh</city>
+                            <state>NC</state>
+                            <postal>27603-1392</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>919-715-0260</cntvoice>
+                        <cntfax>919-733-8485</cntfax>
+                        <cntemail>Michelle.Lown@ncmail.net</cntemail>
+                        <hours>800-1700</hours>
+                        <cntinst>Contact by email.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>6814</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Medical Facilities</enttypl>
+                <enttypd>Facility Point Locations</enttypd>
+                <enttypds>SCHS</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOLDSTYPE</attrlabl>
+                <attrdef>Hospital Type</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HC</edomv>
+                                                
+                        
+                        <edomvd>Home Care</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>FHC</edomv>
+                                                
+                        
+                        <edomvd>Family Care Home</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HOS</edomv>
+                                                
+                        
+                        <edomvd>Hospice</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HL</edomv>
+                                                
+                        
+                        <edomvd>Hospital</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HA</edomv>
+                                                
+                        
+                        <edomvd>Home for the Aged</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>MHL</edomv>
+                                                
+                        
+                        <edomvd>Mental Health Homes</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>NH</edomv>
+                                                
+                        
+                        <edomvd>Nursing Home Facilities</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>NP</edomv>
+                                                
+                        
+                        <edomvd>Nursing Pool</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>AS</edomv>
+                                                
+                        
+                        <edomvd>Ambulatory Surgery</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>CRP</edomv>
+                                                
+                        
+                        <edomvd>Cardiac Rehab Program</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2003</begdatea>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PERIMETER</attrlabl>
+                <attrdef>Perimeter of feature in internal units.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>MEDFACILS_</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MEDFACILS1</attrlabl>
+                <attrdef>User-defined feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FID_1</attrlabl>
+                <attrdef>Facility Master File ID</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>Facility Data</codesetn>
+                                                
+                        
+                        <codesets>Division of Facility Services</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STYPE</attrlabl>
+                <attrdef>Facility Service Type</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HC</edomv>
+                                                
+                        
+                        <edomvd>Home Care</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>FCH</edomv>
+                                                
+                        
+                        <edomvd>Family Care Home</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HA</edomv>
+                                                
+                        
+                        <edomvd>Home for the Aged</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HOS</edomv>
+                                                
+                        
+                        <edomvd>Hospice</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>HL</edomv>
+                                                
+                        
+                        <edomvd>Hospital</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>MHL</edomv>
+                                                
+                        
+                        <edomvd>Mental Health Homes</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>NH</edomv>
+                                                
+                        
+                        <edomvd>Nursing Home Facility</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>NP</edomv>
+                                                
+                        
+                        <edomvd>Nursing Pool</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>CRP</edomv>
+                                                
+                        
+                        <edomvd>Cardiac Rehab Program</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>AS</edomv>
+                                                
+                        
+                        <edomvd>Ambulatory Surgery</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>MHH</edomv>
+                                                
+                        
+                        <edomvd>Mental Health Hospital</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FACILITY</attrlabl>
+                <attrdef>Facility Name</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FADDR1</attrlabl>
+                <attrdef>Facility Mailing Address #1</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FADDR2</attrlabl>
+                <attrdef>Facility Mailing Address #2</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FCITY</attrlabl>
+                <attrdef>Facility Mailing City</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>City Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FSTATE</attrlabl>
+                <attrdef>Facility Mailing State</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>State Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FZIP</attrlabl>
+                <attrdef>Facility Mailing Zip</attrdef>
+                <attrdefs>US Postal Service</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>5</rdommin>
+                                                
+                        
+                        <rdommax>9</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>FCOUNTY</attrlabl>
+                <attrdef>Facility County</attrdef>
+                <attrdefs>US Census Bureau</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>County Code</codesetn>
+                                                
+                        
+                        <codesets>US Census Bureau</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FPHONE</attrlabl>
+                <attrdef>Facility Phone</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>9</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FEXTEN</attrlabl>
+                <attrdef>Facility Extension Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>10</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FFAX</attrlabl>
+                <attrdef>Facility Fax Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>10</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBN1</attrlabl>
+                <attrdef>Other Business Name #1</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBN2</attrlabl>
+                <attrdef>Other Business Name #2</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Site Address</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SCITY</attrlabl>
+                <attrdef>Site City</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>City Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>SSTATE</attrlabl>
+                <attrdef>Site State</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>State Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SZIP</attrlabl>
+                <attrdef>Site Zip</attrdef>
+                <attrdefs>US Postal Service</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>5</rdommin>
+                                                
+                        
+                        <rdommax>9</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ICF</attrlabl>
+                <attrdef>Intermediate Care Facility</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LICNO</attrlabl>
+                <attrdef>Licensure's License Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>6</rdommin>
+                                                
+                        
+                        <rdommax>9</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LICENSEE</attrlabl>
+                <attrdef>Licensee</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ODATE</attrlabl>
+                <attrdef>Original Licensing Date</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Date Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>full_</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EFFECTIVE</attrlabl>
+                <attrdef>License Effective Date</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Date Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>EXPIRES</attrlabl>
+                <attrdef>License Expiration Date</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Date Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>SAELIGIBLE</attrlabl>
+                <attrdef>Special Assistance Eligible (Adult Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>CAPACITY</attrlabl>
+                <attrdef>Capacity, Adult Care Number of Residents</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>NFTOTAL</attrlabl>
+                <attrdef>Total Nursing Home Beds (Nursing Facility)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HATOTAL</attrlabl>
+                <attrdef>Total Adult Care Home Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>LTCTOTAL</attrlabl>
+                <attrdef>Number of Long Term Care Beds for this facility</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HTOTAL</attrlabl>
+                <attrdef>Total Hospital Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>TOTALBEDS</attrlabl>
+                <attrdef>Total all beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HGENLIC</attrlabl>
+                <attrdef>Total Hospital General Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>REHABHLIC</attrlabl>
+                <attrdef>Total Hospital Rehab Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>PSYLIC</attrlabl>
+                <attrdef>Total Hospital Psych Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>SALIC</attrlabl>
+                <attrdef>Total Hospital Substance Abuse Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>DETOXLIC</attrlabl>
+                <attrdef>Total Hospital Detox Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HOSLIC</attrlabl>
+                <attrdef>Total Hospital Hospice Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>RSRCHLIC</attrlabl>
+                <attrdef>Total Hospital Research Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>OTHRHLIC</attrlabl>
+                <attrdef>Total Hospital Other Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>ALZLIC</attrlabl>
+                <attrdef>Total Alzheimers Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HIVLIC</attrlabl>
+                <attrdef>Total HIV Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>REHABNLIC</attrlabl>
+                <attrdef>Total Nursing Home Rehab Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>TBILIC</attrlabl>
+                <attrdef>Total Traumatic Brain Injury Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>VENLIC</attrlabl>
+                <attrdef>Total Ventilator Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>OTHNFLIC</attrlabl>
+                <attrdef>Total Other Nursing Facility Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>NFGENLIC</attrlabl>
+                <attrdef>Total Nursing Facility General Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HAALZLIC</attrlabl>
+                <attrdef>Total Home for the Aged Alzheimers Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HAHIVLIC</attrlabl>
+                <attrdef>Total Home for the Aged HIV Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HAGENLIC</attrlabl>
+                <attrdef>Total Home for the Aged General beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RETIREBEDS</attrlabl>
+                <attrdef>Number of retirement beds in this bed record</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CONCARE</attrlabl>
+                <attrdef>Nursing Home - Continuing Care Community Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADCP</attrlabl>
+                <attrdef>Nursing Home - Adult Day Care Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOSPICE</attrlabl>
+                <attrdef>Nursing Home - Hospice Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>RESPITE</attrlabl>
+                <attrdef>Nursing Home - Respite Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REHAB</attrlabl>
+                <attrdef>Nursing Home - General Rehab Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOMECARE</attrlabl>
+                <attrdef>Flag to indicate homecare involvement necessary (Long Term)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>Facility Code</codesetn>
+                                                
+                        
+                        <codesets>DFS</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SUBACUBEDS</attrlabl>
+                <attrdef>Subacute Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CONSUBACUT</attrlabl>
+                <attrdef>Flag Indicationg C.O.N has been issued to all subacute</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>Facility Code</codesetn>
+                                                
+                        
+                        <codesets>DFS</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HCACAT</attrlabl>
+                <attrdef>Home Care - Home Care Category Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOSCAT</attrlabl>
+                <attrdef>Home Care - Hospice Category Service Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NPCAT</attrlabl>
+                <attrdef>Home Care - Nursing Pool Category Services Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NSGSVCS</attrlabl>
+                <attrdef>Flag to indicate nursing services are provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <codesetd>
+                                                
+                        
+                        <codesetn>Facility Code</codesetn>
+                                                
+                        
+                        <codesets>DFS</codesets>
+                                                
+                    
+                    </codesetd>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NSGINTSV</attrlabl>
+                <attrdef>Intermittent Nursing Service Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NSGPDSV</attrlabl>
+                <attrdef>Private Duty Nursing Service Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>IVSV</attrlabl>
+                <attrdef>Infusion Nursing Service Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AIDESV</attrlabl>
+                <attrdef>In-Home Aide Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SWSV</attrlabl>
+                <attrdef>Medical Social Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PTSV</attrlabl>
+                <attrdef>Pulmonary Care Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OTSV</attrlabl>
+                <attrdef>Occupational Therapy Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SPSV</attrlabl>
+                <attrdef>Speech Therapy Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PMSV</attrlabl>
+                <attrdef>Pulmonary Care Service Provided (Home Care</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DMESV</attrlabl>
+                <attrdef>Durable Medical Equipment Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SPLYSV</attrlabl>
+                <attrdef>Supply Services</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>NSGPOOL</attrlabl>
+                <attrdef>Nursing Pool Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>POOLAIDE</attrlabl>
+                <attrdef>Pool Aide Services Provided (Home Care)</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HHASV</attrlabl>
+                <attrdef>Home Care-Home Health Services Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HHANO</attrlabl>
+                <attrdef>Home Care-Medicare/Medicaid Provider Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>7</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOSNO</attrlabl>
+                <attrdef>Home Care-Medicare/Medicaid Hospice Provider Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>7</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HPBEDS</attrlabl>
+                <attrdef>Hospice Inpatient Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+            <attr>
+                <attrlabl>HRBEDS</attrlabl>
+                <attrdef>Hospice Resident Beds</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>0</rdommin>
+                                                
+                        
+                        <rdommax>200</rdommax>
+                                                
+                        
+                        <attrunit>count</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOSSV</attrlabl>
+                <attrdef>Hospice Home Services Provided</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>T</edomv>
+                                                
+                        
+                        <edomvd>True</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>F</edomv>
+                                                
+                        
+                        <edomvd>False</edomvd>
+                                                
+                        
+                        <edomvds>DFS</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADMNAME</attrlabl>
+                <attrdef>Administrator Phone</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADMPHONE</attrlabl>
+                <attrdef>Administrator Phone Number</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <rdom>
+                                                
+                        
+                        <rdommin>7</rdommin>
+                                                
+                        
+                        <rdommax>10</rdommax>
+                                                
+                        
+                        <attrunit>number</attrunit>
+                                                
+                    
+                    </rdom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DONNAME</attrlabl>
+                <attrdef>Director of Nursing Full Name</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MGMTNAME</attrlabl>
+                <attrdef>Management Company Name</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MGMTADDR</attrlabl>
+                <attrdef>Management Company Address</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PARNAME</attrlabl>
+                <attrdef>Parent Company Name</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PARADDR</attrlabl>
+                <attrdef>Parent Company Address</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OWNERADDR</attrlabl>
+                <attrdef>Owner Address</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Address Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OWNER</attrlabl>
+                <attrdef>Owner Name</attrdef>
+                <attrdefs>DFS</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Name Provided by Division of Facility Services</udom>
+                                        
+                
+                </attrdomv>
+                <begdatea>2002</begdatea>
+                <enddatea>2003</enddatea>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>A point shapefile representing locations of medical and health facilities for the State of North Carolina. Facility attributes were provided by the Division of Facility Services of the Department of Health and Human Services. Geographic attributes include entity ID and shape geometry. Software defined variables created when geocoding include variables starting with AV, then followed by an underscore.</eaover>
+            <eadetcit>none</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NC Center for Geographic Information and Analysis</cntorg>
+                </cntorgp>
+                <cntpos>Database Administration</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>20322 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <cntemail>dataq@its.nc.gov</cntemail>
+                <hours>8:30AM - 5:30PM</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI shapefile (*.shp)</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://data.nconemap.gov/downloads/vector/medfacs.zip</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None. Download from http://www.nconemap.gov is free of charge.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20220519</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+                    <cntper>David Giordano</cntper>
+                </cntorgp>
+                <cntpos>Database Administration</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>20322 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <cntemail>dataq@its.nc.gov</cntemail>
+                <hours>8am to 5pm</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</metuc>
+    </metainfo>
+</metadata>
