@@ -1,5 +1,9 @@
 # HealthcareFinanceMapping
 repository for mapping healthcare facilities and viewing financial timeseries data
+## Getting Started
+This repository requires data from the website https://tool.nashp.org/. Download
+the file 'NASHP 2011-2023 HCT Data 2024 Dec.xlsx' from the data download link labeled 'Hospital Level dataset (2011-2023)'
+put this file in the HealthcareFinanceMapping repository before running any code
 
 ### Dependencies
 
